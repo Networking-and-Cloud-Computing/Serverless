@@ -114,7 +114,7 @@ def send_email(user_email, submission_url, assignment_id, source_email, subject,
 
     # Email parameters
     data = {
-        "from": "mailgun <mailgun@cjoshi.tech>",
+        "from": "mailgun <no-reply@cjoshi.tech>",
         "to": to_address,
         "subject": subject,
         "text": email_body
