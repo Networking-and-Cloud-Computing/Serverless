@@ -90,7 +90,7 @@ def send_email(user_email, submission_url, assignment_id, source_email, subject,
     # Mailgun parameters
     logger = logging.getLogger()
     domain = "cjoshi.tech"
-    api_key = "7c674dccb485f25140f4283ed808b392-30b58138-7954a88e"
+    api_key = "{api_key}"
     to_address = user_email
 
     email_body = (f"\n"
